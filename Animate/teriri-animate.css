@@ -168,12 +168,12 @@
 }
 
 /* 关键字高亮 */
-span.mtk8 {
-  --font-color-0: #bbbbbb;
-  --font-color-1: #fede5d;
+/* span.mtk8 {
+  --font-color-0: #830101;
+  --font-color-1: #265a36;
   text-shadow: 0 0 4px var(--font-color-1);
   animation: fadeLightIn 0.5s ease-in forwards;
-}
+} */
 
 /* span.mtk1 {
   color: rgb(216, 201, 134) !important;
@@ -275,7 +275,7 @@ div.monaco-inputbox {
 /* 所在行数 */
 div.active-line-number {
   --font-color-0: var(--vscode-editorLineNumber-foreground);
-  --font-color-1: #fff;
+  --font-color-1: #4f04aa;
   color: var(--font-color-1) !important;
   animation: fadeLightBigIn 0.5s ease forwards;
 }
@@ -385,7 +385,7 @@ div.cursor {
 
   /* 🌈🌈🌈 炫酷的彩虹光效！🌈🌈🌈 */
   /* 使用方法：注掉上面那个，用下面这个就行。 */
-  background: linear-gradient(
+  /* background: linear-gradient(
     #ff0000,
     #ff7f00,
     #ffff00,
@@ -393,7 +393,7 @@ div.cursor {
     #00ffff,
     #0000ff,
     #8b00ff
-  );
+  ); */
 
   background-size: 100% 1000%;
   border-radius: 2px;
