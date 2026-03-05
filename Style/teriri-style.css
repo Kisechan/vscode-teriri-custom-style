@@ -21,14 +21,14 @@
 .context-view.monaco-component {
   border-radius: 12px !important;
   /* background-color: rgba(40, 44, 52, 0.2) !important; */
-  backdrop-filter: blur(8px) brightness(120%);
+  backdrop-filter: blur(8px);
   /* box-shadow: 0 0 8px 2px rgb(32, 36, 42) !important; */
 }
 
 /* 通知 */
 .notifications-center.visible {
   background-color: transparent !important;
-  backdrop-filter: blur(20px) brightness(110%);
+  backdrop-filter: blur(20px);
   div {
     /* 为通知内部容器添加透明支持 */
     background-color: transparent !important;
@@ -50,7 +50,7 @@
     border-radius: 12px !important;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2) !important;
     background-color: transparent !important;
-    backdrop-filter: blur(12px) brightness(120%);
+    backdrop-filter: blur(12px);
   }
 }
 
@@ -62,7 +62,7 @@
   box-shadow: 0 0 8px 2px rgb(32, 36, 42) !important;
   border-radius: 12px !important;
   /* background-color: rgba(40, 44, 52, 0.2) !important; */
-  backdrop-filter: blur(8px) brightness(120%);
+  backdrop-filter: blur(8px);
   width: max-content !important;
   min-width: fit-content !important;
 }
@@ -74,6 +74,6 @@
     border-radius: 12px !important;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2) !important;
     background-color: transparent !important;
-    backdrop-filter: blur(12px) brightness(120%);
+    backdrop-filter: blur(12px);
   }
 }
